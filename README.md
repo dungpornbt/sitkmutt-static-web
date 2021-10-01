@@ -7,7 +7,7 @@
 docker build -t web .
 
 # Run static web on port 8080
-docker run -d --name web -p 8080:8080 web
+docker run -d --name web -p 8080:80 web
 ```
 
 ## How to run with Docker Compose

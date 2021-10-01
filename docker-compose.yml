@@ -3,4 +3,4 @@ services:
     build: .
     image: ghcr.io/dungpornbt/web:dev
     ports:
-      - "8080:8080"
+      - "8080:80"
